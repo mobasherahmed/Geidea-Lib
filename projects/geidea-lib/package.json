@@ -1,0 +1,29 @@
+{
+  "name": "geidea-lib",
+  "version": "0.0.1",
+  "description":"UI Lib",
+  "author": "Ahmed Mobasher (ahmedmobasher00@gmail.com)",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "UI",
+    "geidea"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

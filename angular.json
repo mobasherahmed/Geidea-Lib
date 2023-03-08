@@ -102,6 +102,37 @@
           }
         }
       }
+    },
+    "geidea-lib": {
+      "projectType": "library",
+      "root": "projects/geidea-lib",
+      "sourceRoot": "projects/geidea-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/geidea-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/geidea-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/geidea-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/geidea-lib/src/test.ts",
+            "tsConfig": "projects/geidea-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/geidea-lib/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
