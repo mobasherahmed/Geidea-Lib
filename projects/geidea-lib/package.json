@@ -5,12 +5,12 @@
   "author": "Ahmed Mobasher (ahmedmobasher00@gmail.com)",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mobasherahmed/Geidea-Lib/tree/main/projects/geidea-lib"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/mobasherahmed/Geidea-Lib/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/mobasherahmed/Geidea-Lib/tree/main/projects/geidea-lib",
   "keywords": [
     "angular",
     "javascript",
