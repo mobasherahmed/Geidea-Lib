@@ -4,4 +4,5 @@
 
 export * from './lib/geidea-lib.service';
 export * from './lib/geidea-lib.component';
+export * from './lib/button/button.component';
 export * from './lib/geidea-lib.module';

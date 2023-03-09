@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { GeideaLibComponent } from './geidea-lib.component';
+import { ButtonComponent } from './button/button.component';
 
 
 
 @NgModule({
   declarations: [
-    GeideaLibComponent
+    GeideaLibComponent,
+    ButtonComponent
   ],
   imports: [
   ],
   exports: [
-    GeideaLibComponent
+    GeideaLibComponent,
+    ButtonComponent
   ]
 })
 export class GeideaLibModule { }

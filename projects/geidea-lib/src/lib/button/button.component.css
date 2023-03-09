@@ -1,0 +1,18 @@
+/* button{
+
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    
+  }
+  button:hover {
+      color: red;
+      background: white;
+    }
+  
+    button:disabled {
+      border-color: #ccc;
+      color: gray;
+      box-shadow: none;
+      cursor: not-allowed;
+    } */
