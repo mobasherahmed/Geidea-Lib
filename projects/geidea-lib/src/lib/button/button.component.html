@@ -1,4 +1,6 @@
-<button [style.color]="color" [style.backgroundColor]="background" [style.border-radius]="radius" [style.padding]="padding"
- (click)="click()">
+<button [style.color]="color" [style.backgroundColor]="background" 
+[style.border-radius]="radius" [style.padding]="padding"
+ (click)="this.clicked.emit(true)">
   {{ content }}
 </button>
+ 

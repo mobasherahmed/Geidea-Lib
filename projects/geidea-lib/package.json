@@ -1,6 +1,9 @@
 {
   "name": "geidea-lib",
   "version": "0.0.2",
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
   "description":"UI Lib",
   "author": "Ahmed Mobasher (ahmedmobasher00@gmail.com)",
   "repository": {
